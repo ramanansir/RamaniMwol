@@ -148,7 +148,7 @@ async function whatsAsena () {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n    ᴢᴀʀᴀ᪥ᴍᴡᴏʟ'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n    ramanimwol'
                 await conn.setStatus(biography)
             }
         }
@@ -237,7 +237,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('💖 RamaniMwol Working Us' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*ZaraMwol Working as a Chatbot! 🐺*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using RamaniMwol 💌*\n    *- Eva*'
+        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*RamaniMwol Working as a Chatbot! 🐺*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using RamaniMwol 💌*\n    *- Eva*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -281,7 +281,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                   await conn.sendMessage(conn.user.jid, fs.readFileSync("./image/logo.jpg"), MessageType.image, { caption: `*ʜᴇʏ  RamaniMwol ᴡᴏʀᴋɪɴɢ ᴜs ᴘᴜʙʟɪᴄ* \n\n*⚠ #ownercmnd ғᴏʀ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs* \n\n*Thank You For Using zᴀʀͥᴀͭᴍᷤWᷟᴏͤʟ ❤‍🩹*`});
+                   await conn.sendMessage(conn.user.jid, fs.readFileSync("./image/logo.jpg"), MessageType.image, { caption: `*ʜᴇʏ  RamaniMwol ᴡᴏʀᴋɪɴɢ ᴜs ᴘᴜʙʟɪᴄ* \n\n*⚠ #ownercmnd ғᴏʀ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs* \n\n*Thank You For Using ramanimwol ❤‍🩹*`});
                }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -310,7 +310,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./image/logo.jpg"), MessageType.image, { caption: `『ramanimol  』\n\nHello ${conn.user.name}!\n\n*🆘 General Help For You! 🆘*\n\n🔹 *#alive:* Check if the bot is running.\n\n🔹 *#list:* Shows the complete list of commands.\n\n🔹 *#restart:* It Restarts the bot.\n\n🔹 *#shutdown:* It Shutdown/Turn off the bot.\n\n *⚠ Warning, If you shutdown/turn off, there is no command to turn on the bot So You must got to heroku & turn on the worker. ⚠*.\n\nThank You For Using ramanimol. \n  Scripted By ramanan💖`});
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./image/logo.jpg"), MessageType.image, { caption: `『ramanimwol  』\n\nHello ${conn.user.name}!\n\n*🆘 General Help For You! 🆘*\n\n🔹 *#alive:* Check if the bot is running.\n\n🔹 *#list:* Shows the complete list of commands.\n\n🔹 *#restart:* It Restarts the bot.\n\n🔹 *#shutdown:* It Shutdown/Turn off the bot.\n\n *⚠ Warning, If you shutdown/turn off, there is no command to turn on the bot So You must got to heroku & turn on the worker. ⚠*.\n\nThank You For Using ramanimol. \n  Scripted By ramanan💖`});
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -336,7 +336,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*Zara  Working as Private! 🙂*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*ramanimwol  Working as Private! 🙂*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -447,18 +447,18 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (gb.message.includes('{pp}')) {
                 let pp 
                 try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                    var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
+                    var ramananser = await conn.groupMetadata(msg.key.remoteJid)
                 await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./image/bye.jpg'),caption:  gb.message.replace('{pp}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) }); });                           
+                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./image/bye.jpg'),caption:  gb.message.replace('{pp}', '').replace('{gphead}', ramananser.subject).replace('{gpmaker}', ramananser.owner).replace('{gpdesc}', ramananser.desc).replace('{owner}', conn.user.name) }); });                           
             } else if (gb.message.includes('{gif}')) {
                 //created by afnanplk
                     var ramananser = await axios.get(config.GIF_BYE, { responseType: 'arraybuffer' })
                     var ramanan = await conn.groupMetadata(msg.key.remoteJid)
-                await conn.sendMessage(msg.key.remoteJid, Buffer.from(plkpinky.data), MessageType.video, {mimetype: Mimetype.gif, thumbnail: fs.readFileSync('./image/bye.jpg'),caption: gb.message.replace('{gif}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) });
+                await conn.sendMessage(msg.key.remoteJid, Buffer.from(plkpinky.data), MessageType.video, {mimetype: RAMANAN.jpg, thumbnail: fs.readFileSync('./image/bye.jpg'),caption: gb.message.replace('{gif}', '').replace('{gphead}', ramanan.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', ramanan.desc).replace('{owner}', conn.user.name) });
             } else {
-                   await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', ramanan.subject).replace('{gpmaker}', ramanan.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name), MessageType.text);
+                   await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', ramanan.subject).replace('{gpmaker}', ramanan.owner).replace('{gpdesc}', ramanan.desc).replace('{owner}', conn.user.name), MessageType.text);
               } 
-            }//thanks to farhan      
+            }//thanks to RamananSer      
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // welcome
@@ -469,7 +469,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
                     var ramanan = await conn.groupMetadata(msg.key.remoteJid)
                 await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                    //created by afnanplk
+                    //created by ramanan
                 await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./image/wel.jpg'),caption:  gb.message.replace('{pp}', '').replace('{gphead}', ramanan.subject).replace('{gpmaker}', ramanan.owner).replace('{gpdesc}', ramanan.desc).replace('{owner}', conn.user.name) }); });                           
             } else if (gb.message.includes('{gif}')) {
                 var ramananser = await axios.get(config.GIF_WEL, { responseType: 'arraybuffer' })
