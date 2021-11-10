@@ -1,9 +1,9 @@
 {
-    "name": "Zaramwol",
-    "description": "Zara bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "name": "Ramanimwol",
+    "description": "Ramani bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.ibb.co/9rrnJ7g/20210815-080839.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/Jokerser-x-Raashii/Zaramwol",
+    "repository": "https://github.com/Ramananser/ramanimwol",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
@@ -114,7 +114,7 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━━╼ Zara Mwol ╾━━━•"
+            "value": "•━━━━╼ Ramani Mwol ╾━━━•"
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
