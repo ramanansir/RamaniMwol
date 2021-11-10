@@ -1,14 +1,14 @@
 <div align="center">
 <img 
-src="https://s10.gifyu.com/images/87644b9756a75c15a840372f61531b14.png" alt="img" width="220" height="30"/>
+src="RAMANAN2.jpg" alt="img" width="220" height="30"/>
 </p>
         <img 
-src="https://tenor.com/view/school-live-cute-hello-anime-girl-yuki-takeya-gif-14815980.gif" alt="GIF" width="220" height="190"/>
+src="RAMANAN1.jpg" alt="GIF" width="220" height="190"/>
 </p>
 
 </div>
 <p align="center">
-ᴘʀᴏᴊᴇᴄᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href="https://github.com/Raashii">Raashii</a>
+ᴘʀᴏᴊᴇᴄᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href="https://github.com/Ramananser">Ramananser</a>
     <br>
        | © |
         Reserved 
@@ -22,7 +22,7 @@ src="https://tenor.com/view/school-live-cute-hello-anime-girl-yuki-takeya-gif-14
 ### [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=san+serif&color=%23F786EB&size=15&lines=We+Cloned+A+Base+Added+Some+Scripts;Now+U+Can+Deploy+Ur+Self%2C+Enjoy+The+Service)](https://git.io/typing-svg)
 <p align="center">
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Raashii/ZaraMwol-Qr)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Ramananser/RamaniMwol-Qr)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://bit.ly/3G36is6)
     
@@ -30,7 +30,7 @@ src="https://tenor.com/view/school-live-cute-hello-anime-girl-yuki-takeya-gif-14
 </p>
 </div>
 <div align="center">
-<a href="https://zaramwol.yolasite.com/">   𒊹︎︎︎𝐏𝐑𝐄𝐒𝐒 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐕𝐈𝐒𝐈𝐓 𝐎𝐔𝐑 𝐖𝐄𝐁𝐒𝐈𝐓𝐄</a>
+<a href="https://ramanimwol.yolasite.com/">   𒊹︎︎︎𝐏𝐑𝐄𝐒𝐒 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐕𝐈𝐒𝐈𝐓 𝐎𝐔𝐑 𝐖𝐄𝐁𝐒𝐈𝐓𝐄</a>
     <br>
 </p>
 <div align="center">
@@ -67,9 +67,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Raashii](https://github.com/Raashii.png?size=100)](https://github.com/Raashii) |  [![Jokerser](https://github.com/j0kerser.png?size=100)](https://github.com/j0kerser) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
+  [![Raashii](https://github.com/RAMANAN1.jpg?size=100)](https://github.com/Ramananser) |  [![Ramananser](https://github.com/RAMANAN1.jpg?size=100)](https://github.com/Ramananser) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[Raashii](https://github.com/Raashii)  | [Jokerser](https://github.com/j0kerser) | [afnanplk](https://github.com/afnanplk)
+[Ramananser](https://github.com/Ramananser)  | [Ramananser](https://github.com/j0kerser) | [Ramanan](https://github.com/Ramanan)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
 
